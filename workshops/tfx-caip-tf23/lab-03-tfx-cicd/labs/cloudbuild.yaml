@@ -19,6 +19,8 @@
 # supports automated building and deploying.
 # 
 
+# testing tags on GCP Cloud Build
+
 steps:
 # Build the image that encapsulates the pipeline.
 - name: 'gcr.io/cloud-builders/docker'
